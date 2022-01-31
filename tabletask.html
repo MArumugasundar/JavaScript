@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="tabletask.css">
+    <title>Table Task</title>
+</head>
+
+<body>
+
+    <input type="text" id="search" placeholder="Search">
+    <table id="content-table" border="1px">
+        <thead>
+        <tr>
+           
+            <th class="id">Name</th><a
+            href="javascript:sort(true, 'id', 'content-table');">ascending</a> <a
+            href="javascript:sort(false, 'id', 'content-table');">decending</a>
+            <th>Tamil</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Social</th>
+        </thead>
+        </tr>
+        <tbody>
+        <tr>
+            <td  class="id">Ajay</td>
+            <td>98</td>
+            <td>87</td>
+            <td>98</td>
+            <td>78</td>
+            <td>97</td>
+        </tr>
+        <tr>
+            <td  class="id">Beni</td>
+            <td>78</td>
+            <td>73</td>
+            <td>81</td>
+            <td>63</td>
+            <td>71</td>
+        </tr>
+        <tr>
+            <td  class="id">Dani</td>
+            <td>83</td>
+            <td>75</td>
+            <td>88</td>
+            <td>64</td>
+            <td>70</td>
+        </tr>
+
+        <tr>
+            <td  class="id">Arun</td>
+            <td>94</td>
+            <td>83</td>
+            <td>68</td>
+            <td>68</td>
+            <td>97</td>
+        </tr>
+        <tr>
+            <td  class="id">Arumugam</td>
+            <td>87</td>
+            <td>78</td>
+            <td>87</td>
+            <td>67</td>
+            <td>77</td>
+        </tr>
+              <tr>
+            <td  class="id">Bharathy</td>
+            <td>85</td>
+            <td>87</td>
+            <td>95</td>
+            <td>98</td>
+            <td>66</td>
+        </tr>
+        <tr>
+            <td  class="id">Calis</td>
+            <td>77</td>
+            <td>98</td>
+            <td>57</td>
+            <td>67</td>
+            <td>77</td>
+        </tr>
+
+        <tr>
+            <td  class="id">Bose</td>
+            <td>76</td>
+            <td>98</td>
+            <td>67</td>
+            <td>97</td>
+            <td>67</td>
+        </tr>
+              
+        <tr>
+            <td  class="id">Dinesh</td>
+            <td>81</td>
+            <td>72</td>
+            <td>83</td>
+            <td>64</td>
+            <td>75</td>
+
+        </tr>
+        <tr>
+            <td  class="id">Inzamam</td>
+            <td>87</td>
+            <td>78</td>
+            <td>87</td>
+            <td>67</td>
+            <td>77</td>
+        </tr>
+        <tr>
+            <td  class="id">Enoch</td>
+            <td>57</td>
+            <td>68</td>
+            <td>77</td>
+            <td>77</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td  class="id">Kaje</td>
+            <td>77</td>
+            <td>68</td>
+            <td>97</td>
+            <td>87</td>
+            <td>87</td>
+        </tr>
+
+       
+        <tr>
+            <td  class="id">Jinith</td>
+            <td>97</td>
+            <td>88</td>
+            <td>67</td>
+            <td>87</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td  class="id">Manoj</td>
+            <td>67</td>
+            <td>88</td>
+            <td>77</td>
+            <td>57</td>
+            <td>97</td>
+        </tr>
+        <tr>
+            <td  class="id">Nirmal</td>
+            <td>65</td>
+            <td>76</td>
+            <td>47</td>
+            <td>67</td>
+            <td>97</td>
+        </tr>
+        <tr>
+            <td  class="id">Muthu</td>
+            <td>67</td>
+            <td>98</td>
+            <td>97</td>
+            <td>87</td>
+            <td>77</td>
+        </tr>
+       
+        <tr>
+            <td  class="id">Mahesh</td>
+            <td>57</td>
+            <td>98</td>
+            <td>77</td>
+            <td>87</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td  class="id">Raj</td>
+            <td>77</td>
+            <td>68</td>
+            <td>87</td>
+            <td>77</td>
+            <td>77</td>
+        </tr>
+
+        
+        <tr>
+            <td  class="id">Praveen</td>
+            <td>87</td>
+            <td>78</td>
+            <td>97</td>
+            <td>97</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td  class="id">Gugan</td>
+            <td>76</td>
+            <td>81</td>
+            <td>82</td>
+            <td>63</td>
+            <td>74</td>
+        </tr>
+       
+        <tr>
+            <td  class="id">Rilvan</td>
+            <td>97</td>
+            <td>73</td>
+            <td>82</td>
+            <td>55</td>
+            <td>87</td>
+        </tr>
+        <tr>
+            <td  class="id">Sundar</td>
+            <td>67</td>
+            <td>78</td>
+            <td>97</td>
+            <td>67</td>
+            <td>57</td>
+        </tr>
+        <tr>
+            <td  class="id">Vinoth</td>
+           <td>75</td>
+           <td>56</td>
+           <td>85</td>
+           <td>98</td>
+           <td>86</td>
+       </tr>
+
+        <tr>
+            <td  class="id">Sankar</td>
+            <td>45</td>
+            <td>87</td>
+            <td>85</td>
+            <td>68</td>
+            <td>76</td>
+        </tr>
+      
+        <tr>
+            <td  class="id">Subramani</td>
+            <td>54</td>
+            <td>77</td>
+            <td>45</td>
+            <td>98</td>
+            <td>96</td>
+        </tr>
+
+       
+        <tr>
+            <td  class="id">Vishal</td>
+            <td>93</td>
+            <td>89</td>
+            <td>84</td>
+            <td>65</td>
+            <td>79</td>
+        </tr>
+    </tbody>
+    </table>
+   
+   <script src="tabletask.js"></script>
+   <div class="button">
+   <button type="button" onclick="previous()">prev</button>
+   <button type="button" onclick="one()">1</button>
+   <button type="button" onclick="two()">2</button>
+   <button type="button" onclick="next()">next</button>
+</div>
+</body>
+
+</html>
